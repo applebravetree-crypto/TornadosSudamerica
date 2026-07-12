@@ -1,7 +1,7 @@
 const tornado_2024_01_09_9999 = L.polyline([[-32.69, -63.44],[-32.69, -63.44]], styles_FU).bindPopup(
     "<table><thead><tr><th class='popup_header_FU' colspan=2 style='text-align: center;'><h2>Landspout - 2024/01/09</h2></th></tr> <tr><th>Start time</th><td>Martes, 9 enero 2024</td></tr> <tr><th>Rating</th><td>?</td></tr> <tr><th>Sources</th><td><a target='_blank' href='https://www.youtube.com/watch?v=oj6eprR3lvU&t=67s'>[1]:<i>Ignacio Bergara | Meteorología</i> | YouTube (1:07)</a></td></tr> <tr><th>Comments</th><td>Did not directly impact Ticino, but location relative to Ticino is not known. No damage was caused.</td></tr>"
 ).addTo(FU_tornadoes);
-const tornado_2024_01_15_9999 = L.polyline([[-32.69, -63.44],[-32.69, -63.44]], styles_FU).bindPopup(
+const tornado_2024_01_15_9999 = L.polyline([[-26.54, -56.92],[-26.54, -56.92]], styles_FU).bindPopup(
     "<table><thead><tr><th class='popup_header_FU' colspan=2 style='text-align: center;'><h2>Tornado - 2024/01/15</h2></th></tr> <tr><th>Start time</th><td>La tarde de lunes, 15 enero 2024</td></tr> <tr><th>Rating</th><td>?</td></tr> <tr><th>Sources</th><td><a target='_blank' href='https://www.ultimahora.com/reportan-un-embudo-de-tornado-en-misiones'>[1]:ÚltimaHora</a></td></tr> <tr><th>Comments</th><td></td></tr>"
 ).addTo(FU_tornadoes);
 const tornado_2024_02_22_9999 = L.polyline([[-9.39, -36.76],[-9.39, -36.76]], styles_F1).bindPopup(
