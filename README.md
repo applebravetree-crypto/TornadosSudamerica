@@ -1,0 +1,5 @@
+Visit the website here: https://applebravetree-crypto.github.io/TornadosSudamerica/TornadoArchive.html
+
+This map contains every tornado I could find that occurred in the South-American Tornado Corridor, a region much like the United States' Great Plains, extending from central Argentina to southern Brazil & southern Paraguay. Some tornadoes from other areas, such as Chile or the rest of Brazil, are also included, but are not the main focus of this map.
+
+A significant amount of tornadoes from 2010 onwards are sourced from news sites, such as Metsul, g1 globo, Clarín, infobae, etc. Brazilian tornadoes may also be rated by SIMEPAR, a Brazilian meteorological organisation. Tornadoes in Argentina from 2000 onwards are much less well-documented compared to Brazil from 2000 onwards (One notable exception being the Las Flores (Buenos Aires province) IF3 tornado on 6 May 2026). However, 2 distinct PDF documents exist that document Argentinian tornadoes from 1930 to either 1988 (María Luisa Altinger de Schwarzkopf, 1988) or 2017 (Mariano Balbi & Pablo Barbieri, 2017). These 2 PDFs source basically (maybe even literally) every tornado in Argentina from before 1988.
