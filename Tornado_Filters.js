@@ -6,10 +6,10 @@ var seasonMAX = Math.pow(2, 32);
 var yearMIN = -Math.pow(2, 32);
 var yearMAX = Math.pow(2, 32);
 
-var monthMIN = 1;
+var monthMIN = -99;
 var monthMAX = 12;
 
-var dayMIN = 1;
+var dayMIN = -99;
 var dayMAX = 13;
 
 var hourMIN = -99;
@@ -29,18 +29,13 @@ var ratingALLOW = {
     "3":true,
     "4":true,
     "5":true,
-    "6":true,
 }
 
 var timezoneALLOW = {
-    MVT:true,
-    EHR:true,
-    ESP:true,
-    ENG:true,
-    WFA:true,
-    JSA:true,
-    ERU:true,
-    CLA:true,
+    BRT:true,
+    ART:true,
+    UYT:true,
+    PYT:true,
 }
 
 var widthMIN = -Math.pow(2, 32);
