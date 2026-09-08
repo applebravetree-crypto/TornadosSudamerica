@@ -65,11 +65,7 @@ background: #fff;
     color: #ffffff;
 }
 .popup_header_F5 {
-    background-color: #990055;
-    color: #ffffff;
-}
-.popup_header_F6 {
-    background-color: #9900CC;
+    background-color: #990077;
     color: #ffffff;
 }
 span.F {
@@ -116,13 +112,7 @@ span.F4 {
     color: #ffffff;
 }
 span.F5 {
-    background-color: #990055;
-    padding: 1px;
-    border-radius: 3px;
-    color: #ffffff;
-}
-span.F6 {
-    background-color: #9900CC;
+    background-color: #990077;
     padding: 1px;
     border-radius: 3px;
     color: #ffffff;
