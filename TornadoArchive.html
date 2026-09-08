@@ -96,14 +96,14 @@
     const styles_F2 = {"color": "#DDBB11", "weight": 6};
     const styles_F3 = {"color": "#FF7700", "weight": 6};
     const styles_F4 = {"color": "#EE0000", "weight": 6};
-    const styles_F5 = {"color": "#990055", "weight": 6};
+    const styles_F5 = {"color": "#990077", "weight": 6};
     const styles_FU_damage_path = {"color": "#333333", "weight": 0, "opacity": 0.4};
     const styles_F0_damage_path = {"color": "#00CCAA", "weight": 0, "opacity": 0.4};
     const styles_F1_damage_path = {"color": "#0066CC", "weight": 0, "opacity": 0.4};
     const styles_F2_damage_path = {"color": "#DDBB11", "weight": 0, "opacity": 0.4};
     const styles_F3_damage_path = {"color": "#FF7700", "weight": 0, "opacity": 0.4};
     const styles_F4_damage_path = {"color": "#EE0000", "weight": 0, "opacity": 0.4};
-    const styles_F5_damage_path = {"color": "#990055", "weight": 0, "opacity": 0.4};
+    const styles_F5_damage_path = {"color": "#990077", "weight": 0, "opacity": 0.4};
     const styles_StartMarker = {"color": "#FFFFFF", "weight": 3, "opacity": 0.6};
 
     const FU_tornadoes = L.geoJSON();
@@ -140,15 +140,6 @@
     var totalLength = 0;
     var totalDuration = 0;
 
-    const tornado_image = L.imageOverlay("../Images/Agua_Santa_TornadoPath_20180612.png", [[-28.382, -52.296],[-28.055, -51.835]], {
-        opacity: 0.0
-    }).addTo(FU_damage_paths);
-    const tornado_image_2 = L.imageOverlay("images/tornadoes_mortreros_19781028.png", [[-31, -62.41],[-30.625, -61.74]], {
-        opacity: 0.2
-    }).addTo(FU_damage_paths);
-
-
-
     const esri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
         attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
     });
@@ -168,6 +159,56 @@
 <script src="Tornado_Constructor.js"></script>
 
 <script src="TornadoPaths/Season_001877.js"></script>
+<script src="TornadoPaths/Season_001904.js"></script>
+<script src="TornadoPaths/Season_001905.js"></script>
+<script src="TornadoPaths/Season_001906.js"></script>
+<script src="TornadoPaths/Season_001907.js"></script>
+<script src="TornadoPaths/Season_001908.js"></script>
+<script src="TornadoPaths/Season_001909.js"></script>
+<script src="TornadoPaths/Season_001910.js"></script>
+<script src="TornadoPaths/Season_001911.js"></script>
+<script src="TornadoPaths/Season_001912.js"></script>
+<script src="TornadoPaths/Season_001913.js"></script>
+<script src="TornadoPaths/Season_001920.js"></script>
+<script src="TornadoPaths/Season_001921.js"></script>
+<script src="TornadoPaths/Season_001922.js"></script>
+<script src="TornadoPaths/Season_001923.js"></script>
+<script src="TornadoPaths/Season_001924.js"></script>
+<script src="TornadoPaths/Season_001925.js"></script>
+<script src="TornadoPaths/Season_001926.js"></script>
+<script src="TornadoPaths/Season_001927.js"></script>
+<script src="TornadoPaths/Season_001928.js"></script>
+<script src="TornadoPaths/Season_001929.js"></script>
+<script src="TornadoPaths/Season_001930.js"></script>
+<script src="TornadoPaths/Season_001931.js"></script>
+<script src="TornadoPaths/Season_001932.js"></script>
+<script src="TornadoPaths/Season_001933.js"></script>
+<script src="TornadoPaths/Season_001934.js"></script>
+<script src="TornadoPaths/Season_001935.js"></script>
+<script src="TornadoPaths/Season_001936.js"></script>
+<script src="TornadoPaths/Season_001937.js"></script>
+<script src="TornadoPaths/Season_001938.js"></script>
+<script src="TornadoPaths/Season_001939.js"></script>
+<script src="TornadoPaths/Season_001940.js"></script>
+<script src="TornadoPaths/Season_001941.js"></script>
+<script src="TornadoPaths/Season_001942.js"></script>
+<script src="TornadoPaths/Season_001943.js"></script>
+<script src="TornadoPaths/Season_001944.js"></script>
+<script src="TornadoPaths/Season_001945.js"></script>
+<script src="TornadoPaths/Season_001946.js"></script>
+<script src="TornadoPaths/Season_001947.js"></script>
+<script src="TornadoPaths/Season_001948.js"></script>
+<script src="TornadoPaths/Season_001949.js"></script>
+<script src="TornadoPaths/Season_001950.js"></script>
+<script src="TornadoPaths/Season_001951.js"></script>
+<script src="TornadoPaths/Season_001952.js"></script>
+<script src="TornadoPaths/Season_001953.js"></script>
+<script src="TornadoPaths/Season_001954.js"></script>
+<script src="TornadoPaths/Season_001955.js"></script>
+<script src="TornadoPaths/Season_001956.js"></script>
+<script src="TornadoPaths/Season_001957.js"></script>
+<script src="TornadoPaths/Season_001958.js"></script>
+<script src="TornadoPaths/Season_001959.js"></script>
 <script src="TornadoPaths/Season_001960.js"></script>
 <script src="TornadoPaths/Season_001961.js"></script>
 <script src="TornadoPaths/Season_001962.js"></script>
@@ -188,6 +229,46 @@
 <script src="TornadoPaths/Season_001977.js"></script>
 <script src="TornadoPaths/Season_001978.js"></script>
 <script src="TornadoPaths/Season_001979.js"></script>
+<script src="TornadoPaths/Season_001980.js"></script>
+<script src="TornadoPaths/Season_001981.js"></script>
+<script src="TornadoPaths/Season_001982.js"></script>
+<script src="TornadoPaths/Season_001983.js"></script>
+<script src="TornadoPaths/Season_001984.js"></script>
+<script src="TornadoPaths/Season_001985.js"></script>
+<script src="TornadoPaths/Season_001986.js"></script>
+<script src="TornadoPaths/Season_001987.js"></script>
+<script src="TornadoPaths/Season_001988.js"></script>
+<script src="TornadoPaths/Season_001989.js"></script>
+<script src="TornadoPaths/Season_001990.js"></script>
+<script src="TornadoPaths/Season_001991.js"></script>
+<script src="TornadoPaths/Season_001992.js"></script>
+<script src="TornadoPaths/Season_001993.js"></script>
+<script src="TornadoPaths/Season_001994.js"></script>
+<script src="TornadoPaths/Season_001995.js"></script>
+<script src="TornadoPaths/Season_001996.js"></script>
+<script src="TornadoPaths/Season_001997.js"></script>
+<script src="TornadoPaths/Season_001998.js"></script>
+<script src="TornadoPaths/Season_001999.js"></script>
+<script src="TornadoPaths/Season_002000.js"></script>
+<script src="TornadoPaths/Season_002001.js"></script>
+<script src="TornadoPaths/Season_002002.js"></script>
+<script src="TornadoPaths/Season_002003.js"></script>
+<script src="TornadoPaths/Season_002004.js"></script>
+<script src="TornadoPaths/Season_002005.js"></script>
+<script src="TornadoPaths/Season_002006.js"></script>
+<script src="TornadoPaths/Season_002007.js"></script>
+<script src="TornadoPaths/Season_002008.js"></script>
+<script src="TornadoPaths/Season_002009.js"></script>
+<script src="TornadoPaths/Season_002010.js"></script>
+<script src="TornadoPaths/Season_002011.js"></script>
+<script src="TornadoPaths/Season_002012.js"></script>
+<script src="TornadoPaths/Season_002013.js"></script>
+<script src="TornadoPaths/Season_002014.js"></script>
+<script src="TornadoPaths/Season_002015.js"></script>
+<script src="TornadoPaths/Season_002016.js"></script>
+<script src="TornadoPaths/Season_002017.js"></script>
+<script src="TornadoPaths/Season_002018.js"></script>
+<script src="TornadoPaths/Season_002019.js"></script>
 <script src="TornadoPaths/Season_002020.js"></script>
 <script src="TornadoPaths/Season_002021.js"></script>
 <script src="TornadoPaths/Season_002022.js"></script>
@@ -241,7 +322,7 @@
 		layers: [esri]
 	}).setView([-25, -60],4);
 
-	const imagemap = L.imageOverlay("images/20260808_Paraná.png", [[-26.5, -53.93],[-22.5, -49.16]], {
+	const imagemap = L.imageOverlay("images/20221209_Bragado.png", [[-35.35, -61.075],[-35.04, -60.22]], {
         opacity: 0.5,
     }).addTo(imagemap_layer)
 
