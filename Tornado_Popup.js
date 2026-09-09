@@ -11,6 +11,7 @@ function tornadoClicked(e) {
     var language = Esp
     var txtTime = ""
     var txtDate = ""
+    var txtDate2 = ""
     var txtWindspeed = ""
     var txtWidth = ""
     var txtLength = ""
@@ -32,15 +33,19 @@ function tornadoClicked(e) {
     }
     if (prop.month != -99 && prop.day != -99) {
         txtDate = prop.day + " " + monthNames[prop.month-1] + " " + prop.year
+        txtDate2 = prop.year + "/" + numLeng(prop.month, 2) + "/" + numLeng(prop.day, 2)
     }
     if (prop.month != -99 && prop.day == -99) {
         txtDate = monthNames[prop.month-1] + " " + prop.year
+        txtDate2 = prop.year + "/" + numLeng(prop.month, 2) + "/??"
     }
     if (prop.month == -99 && prop.day != -99) {
         txtDate = prop.day + " ??? " + prop.year
+        txtDate2 = prop.year + "/??/" + numLeng(prop.day, 2)
     }
     if (prop.month == -99 && prop.day == -99) {
         txtDate = prop.year
+        txtDate2 = prop.year
     }
     if (prop.windspeed != -99) {
         txtWindspeed = "<tr><th>" + language[0] + "</th><td>" + prop.windspeed + " km/h</td></tr> "
@@ -75,6 +80,6 @@ function tornadoClicked(e) {
     console.log(txtSources, Sources.length)
     L.popup()
         .setLatLng(e.latlng)
-        .setContent("<table><thead><tr><th class='popup_header_F" + prop.rating + "' colspan='99'><h2>F" + prop.rating + " " + tornadoTypes[prop.type] + " - " + prop.year + "/" + numLeng(prop.month, 2) + "/" + numLeng(prop.day, 2) + "</h2></th></tr></thead> <tbody><tr><th>Start time</th><td>" + txtTime + txtDate + "</td></tr> <tr><th>Rating</th><td>F" + prop.rating + "</td></tr> " + txtWindspeed + txtWidth + txtLength + txtDuration + txtLocError + txtDeaths + txtInjuries + txtSources + "</td></tr> <tr><th>Comments</th><td>" + prop.comments + "</td></tr></tbody><table>")
+        .setContent("<table><thead><tr><th class='popup_header_F" + prop.rating + "' colspan='99'><h2>F" + prop.rating + " " + tornadoTypes[prop.type] + " - " + txtDate2 + "</h2></th></tr></thead> <tbody><tr><th>Start time</th><td>" + txtTime + txtDate + "</td></tr> <tr><th>Rating</th><td>F" + prop.rating + "</td></tr> " + txtWindspeed + txtWidth + txtLength + txtDuration + txtLocError + txtDeaths + txtInjuries + txtSources + "</td></tr> <tr><th>Comments</th><td>" + prop.comments + "</td></tr></tbody><table>")
         .openOn(map);
 }

@@ -2,24 +2,31 @@ var monthsStartDayOfYear = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 33
 
 var seasonMIN = -Math.pow(2, 32);
 var seasonMAX = Math.pow(2, 32);
+var seasonUNK = true
 
 var yearMIN = -Math.pow(2, 32);
 var yearMAX = Math.pow(2, 32);
+var yearUNK = true
 
-var monthMIN = -99;
+var monthMIN = 1;
 var monthMAX = 12;
+var monthUNK = true
 
-var dayMIN = -99;
-var dayMAX = 13;
+var dayMIN = 1;
+var dayMAX = 31;
+var dayUNK = true
 
 var hourMIN = -99;
 var hourMAX = 23;
+var hourUNK = true
 
 var minuteMIN = -99;
 var minuteMAX = 59;
+var minuteUNK = true
 
 var windspeedMIN = -Math.pow(2, 32);
 var windspeedMAX = Math.pow(2, 32);
+var windspeedUNK = true
 
 var ratingALLOW = {
     "U":true,
@@ -29,26 +36,36 @@ var ratingALLOW = {
     "3":true,
     "4":true,
     "5":true,
+    "6":true,
 }
 
 var timezoneALLOW = {
-    BRT:true,
-    ART:true,
-    UYT:true,
-    PYT:true,
+    MVT:true,
+    EHR:true,
+    ESP:true,
+    ENG:true,
+    WFA:true,
+    JSA:true,
+    ERU:true,
+    CLA:true,
 }
 
 var widthMIN = -Math.pow(2, 32);
 var widthMAX = Math.pow(2, 32);
+var widthUNK = true
 
 var lengthMIN = -Math.pow(2, 32);
 var lengthMAX = Math.pow(2, 32);
+var lengthUNK = true
 
 var durationMIN = -Math.pow(2, 32);
 var durationMAX = Math.pow(2, 32);
+var durationUNK = true
 
 var deathsMIN = -Math.pow(2, 32);
 var deathsMAX = Math.pow(2, 32);
+var deathsUNK = true
 
 var injuriesMIN = -Math.pow(2, 32);
 var injuriesMAX = Math.pow(2, 32);
+var injuriesUNK = true
